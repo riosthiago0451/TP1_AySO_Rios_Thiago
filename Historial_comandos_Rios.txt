@@ -1,0 +1,336 @@
+vagrant halt
+exit
+ssh-keygen -t ed25519
+sudo systemctl status sshd
+cat .ssh/id_ed25519.pub
+git clone git@github.com:riosthiago0451/Clase3Arq_Rios.git
+ls
+cd Clase3Arq_Rios
+ls
+history
+history > historial.txt
+ls
+cd Documentos
+cd Document
+cd document
+cd documents
+cd documentos
+cd Document
+cd home
+exit
+mkdir Documentos
+cd Documentos
+cat >archivo1.txt
+ls
+cat archivo1.txt
+cat >archivo1.txt
+ls
+cat archivo1.txt
+cat >archivo2.txt
+ls
+cat archivo2.txt
+cat archivo1.txt archivo2.txt > archivo3.txt
+ls
+cat archivo3.txt
+cat >archivo1.txt
+cat >archivo2.txt
+grep dias archivo1.txt
+grep -n dias archivo1.txt
+grep -c dias archivo1.txt
+grep martes archivo1.txt | grep martes archivo2.txt
+grep martes ./*
+grep -i martes ./*
+cd Clase3Arq_Rios
+cd root
+cd /Clase3Arq_Rios
+ssh-keygen -t ed25519
+sudo systemctl status sshd
+cat .ssh/id_ed25519.pub
+cd ..
+cat .ssh/id_ed25519.pub
+git clone git@github.com:riosthiago0451/clase_4_arq_rios.git
+cd clase_4_arq_rios
+cat >archivo1.txt
+git status
+git add
+git add .
+git status
+git commit
+git config --global user.email "riosthiago0451@gmail.com"
+git config --global user.name "rthiago"
+git commit
+ls
+mkdir clase4
+cd clase4
+mkdir practica
+ls
+cd practica
+ls
+cat >practica1.txt
+ls
+cp practica1.txt practica2.txt
+ls
+rm practica1.txt
+ls
+mv practica2.txt /clase4
+sudo mv practica2.txt /clase4/
+sudo mv practica2.txt /clase4
+cd clase4
+cd root
+cd ..
+cd clase4
+ls
+cd ..
+cd clase4
+ls
+cd practica
+ls
+cd ..
+ls
+cd..
+ls
+cd ..
+ls
+ls -l
+cd clase4
+ls -l
+sudo find / -name "practica2.txt" 2>/dev/null
+cd practica
+ls
+cat >practica2.txt
+mv practica2.txt /clase4
+ls
+sudo mv practica2.txt /clase4
+ls
+cd ..
+ls
+cd practica
+ls -l /clase4
+cat >practica2.txt
+sudo mv practica2.txt clase4/
+ls
+ls -l
+cd clase_4_arq_rios
+ls
+cd ..
+cd..
+cd ..
+ls
+rm clase4
+sudo rm clase4
+ls
+cd home
+cd .
+cd clase4
+ls
+cd vagrant
+ls
+cd clase4
+cd practica
+ls
+mv practica2.txt /home/vagrant/clase4
+cd ..
+ls
+rmdir practica
+ls
+mkdir contactos
+ls
+cd contactos
+mk -p {clientes,proveedores}/{facturas,pedidos}
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+ls
+ls -l
+free
+pwd
+cd clientes
+pwd
+ls
+tree
+cd
+ls
+find /home/vagrant/clase4 -maxdepth 4
+exit
+git clone git@github.com:riosthiago0451/TP1_AySO_Rios_Thiago.git
+ls
+cat /.ssh/*.pub
+cat /home/.ssh/*.pub
+cd ..
+ls
+cd ..
+ls
+ls -l
+cd hine
+cd home
+cd vagrant
+cd
+ls
+cd repogit
+ls
+cd
+ls
+rm TP1_AySO_Rios_Thiago
+rm -rf TP1_AySO_Rios_Thiago
+ls
+cd repogit
+git clone git@github.com:riosthiago0451/TP1_AySO_Rios_Thiago.git
+ls
+pwd
+ls -l
+cd TP1_AySO_Rios_Thiago/
+ls -l
+pwd
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+ls
+cd repogit
+ls
+cd TP1_AySO_Rios_Thiago/
+grep HOME_URL /etc/os-release
+grep home_URL /etc/os-release
+grep -i home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls
+cat datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt
+git add .
+git config --global user.email "riosthiago0451@gmail.com"
+git config --global user.name "riosthiago"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<EOF >> README.md
+Alumno: Rios Thiago Maximiliano
+Division: 212
+Turno: Tarde (14 a 18hs)
+EOF
+
+ls
+git add README.md
+git commit -m "ADD: Añadiendo Readme"
+git status
+git push
+cd
+ls
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+ls
+cd materia1
+ls
+cd
+cd materia2
+ls
+exit
+mkdir clase6
+ls
+cd clase6
+pwd
+whoami
+ls -l
+echo hola
+echo pwd > script1
+cat script1
+ls -l
+echo whoami > script1
+cat script1
+echo pwd >> script1
+cat script1
+bash script1
+cat << FIN >script2.sh
+FIN
+
+cat script2
+cat <<FIN >script2.sh
+#!/bin/bash
+echo "Hola, Comisión 212!"
+FIN
+
+cat script2
+cat script2.sh
+cat >script3.sh
+vim script3.sh
+ls -l
+chmod 764 script3.sh
+ls -l
+vim script3.sh
+ls -l
+./script3.sh
+exit
+ls
+ls-l
+ls -l
+mkdir thiago
+cd thiago
+mkdir -p {materia1,materia2}/{uni1.uni2.uni3}
+ls
+cd materia 1
+cd materia1
+ls
+cd
+cd thiago
+rmdir materia1
+rm -rf materia1
+ls
+rm -rf materia2
+cd
+rmdir thiago
+cat >script_dir.sh
+ls
+chmod 764 script_dir.sh
+ls -l
+vim script_dir.sh
+makedir thiago
+mkdir thiago
+cd thiago
+./script_dir.sh
+cd
+./script_dir.sh
+cat script_dir.sh>>/home/vagrant/thiago
+mv script_dir.sh /home/vagrant/thiago
+ls
+cd thiago
+ls
+./script_dir.sh
+vim script_dir.sh
+./script_dir.sh
+ls
+cd materia1
+ls
+ls -ñ
+ls -l
+cd thiago
+cd ..
+cd materia2
+ls
+cd ..
+rm -rf {materia1,materia2}
+ls
+mv script_dir.sh /home/vagrant
+cd
+rmdir thiago
+ls
+git add script_dir.sh
+cd repogit
+ls
+cd TP1_AySO_Rios_Thiago/
+cd
+mv script_dir.sh /repogit/TP1_AySO_Rios_Thiago
+mv script_dir.sh /home/vagrant/repogit/TP1_AySO_Rios_Thiago
+cd repogit
+cd TP1_AySO_Rios_Thiago/
+ls
+git add script_dir.sh
+git commit -m "ADD: Añadiendo Script"
+git status
+git push
+history -a
+ls
